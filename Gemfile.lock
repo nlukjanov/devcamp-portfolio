@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/nlukjanov/nikita_view_tool
+  revision: 6b29e8cc1e7d45deba48f5e162c1fb7bc34e952b
+  specs:
+    nikita_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -197,6 +203,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
+  nikita_view_tool!
   pg (~> 0.18)
   pry-byebug
   puma (~> 3.7)

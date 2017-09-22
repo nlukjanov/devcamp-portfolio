@@ -61,3 +61,7 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 
 #jQuery
 gem 'jquery-rails'
+
+# My own created gem for view methods
+
+gem 'nikita_view_tool', git: 'https://github.com/nlukjanov/nikita_view_tool'

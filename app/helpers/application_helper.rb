@@ -21,4 +21,8 @@ module ApplicationHelper
     end
   end
   
+  def copyright_generator
+    NikitaViewTool::Renderer.copyright "Nikita", "All rights reserved"
+  end
+  
 end
