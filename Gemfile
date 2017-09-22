@@ -53,4 +53,11 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Friendly slugs for pages links
 gem 'friendly_id', '~> 5.1.0'
+# Authentication gem
 gem 'devise', '~> 4.3'
+
+# Bootstrap
+gem 'bootstrap', '~> 4.0.0.alpha6'
+
+#jQuery
+gem 'jquery-rails'
