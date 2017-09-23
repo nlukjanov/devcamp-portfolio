@@ -65,3 +65,6 @@ gem 'jquery-rails'
 # My own created gem for view methods
 
 gem 'nikita_view_tool', git: 'https://github.com/nlukjanov/nikita_view_tool'
+# Authorization gem Petergate
+
+gem 'petergate', '~> 1.7', '>= 1.7.5'
