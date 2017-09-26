@@ -65,6 +65,14 @@ gem 'jquery-rails'
 # My own created gem for view methods
 
 gem 'nikita_view_tool', git: 'https://github.com/nlukjanov/nikita_view_tool'
+
 # Authorization gem Petergate
 
 gem 'petergate', '~> 1.7', '>= 1.7.5'
+
+# Awesome fonts
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+
+# Pagination gem
+
+gem 'kaminari', :git => 'https://github.com/kaminari/kaminari'
