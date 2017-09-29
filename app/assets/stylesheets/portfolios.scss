@@ -1,9 +1,7 @@
-// Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
-  background-color: #333;
 }
 
 .navbar {
@@ -59,12 +57,4 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
-}
-
-.container a {
-  color: white;
-}
-
-.navbar-toggler-icon {
-  color: white;
 }
