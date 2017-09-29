@@ -78,3 +78,7 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 # Pagination gem
 
 gem 'kaminari', :git => 'https://github.com/kaminari/kaminari'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end
