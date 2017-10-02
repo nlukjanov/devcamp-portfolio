@@ -45,6 +45,8 @@ body {
 
 .card > img {
   margin-bottom: .75rem;
+  max-width: 350px;
+  max-height: 200px;
 }
 
 .card-text {
@@ -62,6 +64,6 @@ footer p {
 
 // Customs style
 
-.portfolio-form {
-  padding: 20px;
+.portfolio-container {
+  padding-top: 30px;
 }
