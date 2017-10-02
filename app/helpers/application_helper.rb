@@ -45,7 +45,7 @@ module ApplicationHelper
       },
       {
         url: portfolios_path,
-        title: 'Portfolios'
+        title: 'Portfolio'
       },
     ]
 
