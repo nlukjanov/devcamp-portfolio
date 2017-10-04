@@ -97,3 +97,6 @@ gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 # Cocoon gem to manipulate forms with JS
 
 gem 'cocoon', '~> 1.2', '>= 1.2.10'
+
+# gritter gem for notifications
+gem 'gritter', '~> 1.2'
