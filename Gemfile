@@ -100,3 +100,5 @@ gem 'cocoon', '~> 1.2', '>= 1.2.10'
 
 # gritter gem for notifications
 gem 'gritter', '~> 1.2'
+
+gem 'twitter', '~> 6.1'
