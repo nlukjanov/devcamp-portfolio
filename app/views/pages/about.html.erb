@@ -12,9 +12,58 @@
       <div class="col-md-8">
         <p>I have started to learn web development and specifically Rails in late 2016. The decision came out of intereste to programming and to web development particularly. I went through several introductory course to decide that Ruby on Rails would be most suitable for my goals. Since then I have been studying in my free time and developing my skills through variety of courses and web apps.</p>
         <p> My github profile: <%= link_to "github.com/nlukjanov", "https://github.com/nlukjanov" %></p>
+        <p>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#jobHistory"
+            aria-expanded="false"
+            aria-container="jobHistory"
+          >
+            Job History
+          </button>
+
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="collapse"
+            data-target="#education"
+            aria-expanded="false"
+            aria-container="education"
+          >
+            Education
+          </button>
+        </p>
+
+        <p>
+          <div class="collapse" id="jobHistory">
+            <div class="card card-block">
+              Job 1
+            </div>
+            <div class="card card-block">
+              Job 2
+            </div>
+            <div class="card card-block">
+              Job 3
+            </div>
+          </div>
+
+          <div class="collapse" id="education">
+            <div class="card card-block">
+              Education 1
+            </div>
+            <div class="card card-block">
+              Education 2
+            </div>
+            <div class="card card-block">
+              Education 3
+            </div>
+          </div>
+
+        </p>
       </div>
 
     </div>
-
   </div>
 </div>
