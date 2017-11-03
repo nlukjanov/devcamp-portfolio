@@ -7,31 +7,44 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Topic.create!(title: "Rails")
-Topic.create!(title: "Ruby")
+Topic.create!(title: "HTML + CSS")
 Topic.create!(title: "Coding Exercises")
 
 puts "3 Topics created"
 
-10.times do |blog|
+3.times do |blog|
   Blog.create!(
     title: "My Blog Post #{blog}",
-    body: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+    body: "Just some text in the body to exercise in seeds data creation",
     topic_id: Topic.last.id
   )
 end
 
-puts "10 blog posts created"
+puts "3 blog posts created"
 
-5.times do |skill|
-  Skill.create!(
-    title: "Rails #{skill}",
-    percent_utilized: 15
-  )
-end
+Skill.create!(
+  title: "Rails",
+  percent_utilized: 30
+)
 
-puts "5 skills created"
+Skill.create!(
+  title: "HTML + CSS",
+  percent_utilized: 25
+)
 
-8.times do |portfolio_item|
+Skill.create!(
+  title: "Angular",
+  percent_utilized: 10
+)
+
+Skill.create!(
+  title: "Javascript",
+  percent_utilized: 20
+)
+
+puts "4 skills created"
+
+4.times do |portfolio_item|
   Portfolio.create!(
     title: "Portfolio title: #{portfolio_item}",
     subtitle: "Ruby on Rails",
@@ -51,7 +64,7 @@ end
   )
 end
 
-puts "9 portfolios items created"
+puts "5 portfolios items created"
 
 3.times do |technology|
   Portfolio.last.technologies.create!(
