@@ -44,7 +44,7 @@ puts "3 blog posts created"
 
 Skill.create!(
   title: "Rails",
-  percent_utilized: 30
+  percent_utilized: 40
 )
 
 Skill.create!(
