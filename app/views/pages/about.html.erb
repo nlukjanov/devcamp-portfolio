@@ -5,26 +5,6 @@
     <hr>
 
     <div class="row">
-      <div class="col-md-4">
-        <%= image_tag "300x400.png", width: 300, alt: "Profile Image", class: 'profile-img' %>
-        <div class="skills">
-          <% @skills.each do |skill| %>
-            <div class="skill">
-              <h4><%= skill.title %></h4>
-              <div class="progress">
-                <div
-                  class="progress-bar progress-bar-stripped bg-warning"
-                  role="progressbar"
-                  aria-valuenow="<%= skill.percent_utilized %>"
-                  aria-valuemax="100"
-                  style="width: <%= skill.percent_utilized %>%"
-                  >
-                </div>
-              </div>
-            </div>
-          <% end %>
-        </div>
-      </div>
 
       <div class="col-md-8">
         <p>I have started to learn web development and specifically Rails in late 2016. The decision came out of intereste to programming and to web development particularly. I went through several introductory course to decide that Ruby on Rails would be most suitable for my goals. Since then I have been studying in my free time and developing my skills through variety of courses and web apps.</p>
@@ -79,6 +59,28 @@
           </div>
         </p>
       </div>
+
+      <div class="col-md-4">
+        <%= image_tag "300x400.png", alt: "Profile Image", class: 'profile-img' %>
+        <div class="skills">
+          <% @skills.each do |skill| %>
+            <div class="skill">
+              <h4><%= skill.title %></h4>
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-stripped bg-warning"
+                  role="progressbar"
+                  aria-valuenow="<%= skill.percent_utilized %>"
+                  aria-valuemax="100"
+                  style="width: <%= skill.percent_utilized %>%"
+                  >
+                </div>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
