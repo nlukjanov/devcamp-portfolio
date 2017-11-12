@@ -6,6 +6,7 @@ ready = ->
       'I have been buiding this website while practicing in software development.'
     ]
     typeSpeed: 0
+    loop: true
   return
 
 $(document).ready ready
