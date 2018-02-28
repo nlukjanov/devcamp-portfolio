@@ -19,3 +19,11 @@ end
 ```javascript
 alert('Hi there');
 ```
+
+```
+  update skill info
+  update about me
+  add photo
+  add blog posts
+  add portoflio examples - school site, shopping, portfolio
+```
